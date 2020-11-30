@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "init": "node ./init.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "yargs": "^16.1.1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "date-getter": "./src/date-getter/index.js",
+    "vang-ui": "./src/vang-ui/index.js"
   }
 }
