@@ -23,6 +23,7 @@ const handler = (argv) => {
 
     if (currentDate) {
         process.stdout.write(String(currentDate));
+        return;
     }
     process.exit(1);
 };

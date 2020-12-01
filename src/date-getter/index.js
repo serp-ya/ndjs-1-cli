@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 const yargs = require('yargs/yargs');
 const { hideBin } = require('yargs/helpers');
-const { COMMANDS_NAMES } = require('./date-getter-constants');
 const { commands } = require('./commands');
 
 const binFreeArgv = hideBin(process.argv);
